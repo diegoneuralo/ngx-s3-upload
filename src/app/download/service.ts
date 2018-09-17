@@ -12,7 +12,7 @@ export class DownLoadService {
 
 
   constructor() {
-    this.defaultRegion = 'ap-south-1';
+    this.defaultRegion = 'us-east-1';
   }
 
   setSignedInUser(user: User) {

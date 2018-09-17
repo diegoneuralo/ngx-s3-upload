@@ -22,7 +22,7 @@ export class UploadService {
   private defaultRegion: string;
 
   constructor() {
-    this.defaultRegion = 'ap-south-1';
+    this.defaultRegion = 'us-east-1';
   }
 
   setSignedInUser(user: User) {
